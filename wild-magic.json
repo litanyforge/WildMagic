@@ -8,12 +8,12 @@
      "[target] [actions]",
      "[target] [actions]",
 
-    "Lamp! Norris's Lamp suddenly sucks in [target] for [1d4] rounds",
+    "Lamp! Norris's Lamp suddenly sucks in [target] for [d4] rounds",
     "Darth Jar Jar appears and force chokes [target] while taunting them",
     "Nasrond's Blessing! [target] becomes drunk [duration]",
     "Fizban's Blessing! Fireball [target] for 2d8 damage!",
     "Galondel's Blessing! Cover [target] in 5 feet of dirt!",
-    "Marsara's Blessing! A dragon roar inspires the party. They gain 1 energy and [1d4] hp",
+    "Marsara's Blessing! A dragon roar inspires the party. They gain 1 energy and [d4] hp",
     "Titan's Blessing! [target] must yell and power up [duration]",
     "Stanley's Curse! [target] is transformed into a dog [duration]",
     "Cast [spell] on [target].",
@@ -32,7 +32,7 @@
     "Heaven's Blessing! Reverse time 6 seconds",
     "Dengar's Velocity! [target] gains double speed [duration]",
     "Nasrond's Curse! Shoot lightning at [target] for 2d8 damage",
-    "Galondel's Curse! [target] loses [1d4] life. [target_other] gains the same amount.",
+    "Galondel's Curse! [target] loses [d4] life. [target_other] gains the same amount.",
     "Heaven's Curse! Set [target_loc] on fire [duration]",
     "Dengar's Curse! [target] shrinks to half their size and people make fun of them",
     "Titan's Curse! [target] shrinks down and becomes a living ball the size of a bowling ball for [duration]",
@@ -53,7 +53,7 @@
     "Leeroy Jenkins resonance! [target_party] is overcome with reckless courage and must immediately charge into melee combat screaming!",
     "Mortal Kombat voiceover! A booming announcer yells 'FINISH HIM!' above [target_enemy]—the next hit against them automatically deals an extra 1d10 damage!",
 
-    "lightning strikes [target] from the sky, their shirt rips. They gain the power of grayskull and 10 temp hp. They do double damage on attacks for [1d4] rounds.",
+    "lightning strikes [target] from the sky, their shirt rips. They gain the power of grayskull and 10 temp hp. They do double damage on attacks for [d4] rounds.",
     "Sight Beyond Sight: [target]'s eyes glow. Can see through illusions and invisibility within 60', and know the exact location of any named object or creature. Lasts 5 minutes or until used",
     "Dance magic dance! Everyone in the area joins together in a musical number.",
     "Gravity reverses only for [target] [duration]!"
@@ -62,7 +62,7 @@
 
 
 
-     "1d4": [
+     "d4": [
       "1",
      "2",
      "3",
@@ -141,8 +141,7 @@
   "dwarf",
   "high elf",
   "drow",
-  "orc",
-  "goblin",
+    "goblin",
   "gnome",
   "halfling",
   "githyanki",
@@ -329,7 +328,7 @@
       "industrial grease"
     ],
     "partytempters": [
-      "[1d4] gold teeth",
+      "[d4] gold teeth",
       "[item]",
       "a locked door",
       "a dead body",
@@ -404,7 +403,7 @@
       "scalding steam (1d6 fire damage)",
       "choking spore dust (DC 13 Con or coughing fit)",
       "slick grease across the floor (difficult terrain)",
-      "sparking static electricity ([1d4] lightning to anyone wearing metal)",
+      "sparking static electricity ([d4] lightning to anyone wearing metal)",
       "dense hallucinogenic fog",
       "a downpour of hot clam chowder",
       "a shower of boiling hot tea"
