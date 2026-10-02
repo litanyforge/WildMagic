@@ -14,11 +14,13 @@
     "Titan's Blessing! [target] must yell and power up [duration]",
     "Stanley's Curse! [target] is transformed into a dog [duration]",
     "Cast [spell] on [target].",
+    "[target] believes [target_other] is [belief]",
     "A localized arcane portal opens above [target_loc] and dumps 50 gallons of [liquid] directly onto the floor!",
     "Fold Wave activated! Machines overclock, inspiration is provided, or emotions swell.",
     "[target] swaps physical positions with [target_other] instantly!",
     "Care Bear Stare! A beam shoots out of [target_party] and hits [target_enemy]. They must make a DC 15 will save or be filled with love. A 1 makes the effect permanent.",
     "Tharizdun's Curse! The DM gains a fear token!",
+    "Nearby water becomes [liquid] for [duration]",
     "Tharizdun's Blessing! [target_loc] is erased from existence [duration]",
     "Marsara's curse! [target] can only speak in Raptor [duration]",
     "Stanley's blessing! [target] can immediatly set two linked portals anywhere they can see that last [duration]",
@@ -192,6 +194,15 @@
       
       "giant slug"
     ],
+
+    "belief": [
+      "is [quirk]",
+      "is [descriptor]",
+      "is [creature]"
+      ],
+
+
+    
     "duration": [
       "for 1 round",
       "for 3 rounds",
@@ -216,6 +227,10 @@
       "sparkling glitter water",
       "ale",
       "arcane blood",
+      "blood",
+      "behemoth repellant (dragon piss)",
+      "beef gravy",
+      "syrup",
       "industrial grease"
     ],
     "partytempters": [
