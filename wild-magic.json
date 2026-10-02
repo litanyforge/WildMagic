@@ -1,7 +1,6 @@
 {
   "surges": [
     "[partytempters], pulsing with [energy_type] appears",
-    "a locked door appears suddenly on an available surface",
     "a big red button appears (roll to see what happens, but give them an energy if they press)",
     "[target] gains the aspect '[aspect]' until the end of the game session.",
     "[target] becomes a [creature] [duration].",
@@ -115,6 +114,7 @@
   "remorhaz",
   "treant",
   "bodak",
+   "sand worm",
   "wraith",
   "gorgon brass bull",
   "ettin with arguing heads",
@@ -133,6 +133,7 @@
      "harbinger of great evil",
      "iron golem",
      "kobold",
+     "ghost kobold",
   "dwarf",
   "high elf",
   "drow",
@@ -246,16 +247,22 @@
   "reckless",
   "hangry",
   "conniving",
-  "dead",    
+  "dead",
+  "screaming",
+  "spectral",
+  "hyper-intelligent",
+  "clockwork",
+  "miniature",
+    
   "star-struck"
 ],
     
     "animal": [
-      "screaming badger",
-      "spectral potted plant",
-      "hyper-intelligent ferret",
-      "clockwork chicken",
-      "miniature raptor",
+      "badger",
+      "sentient potted plant",
+      "ferret",
+      "chicken",
+      "raptor",
 
 
       
@@ -266,7 +273,7 @@
       "is [quirk]",
       "is [descriptor]",
       "is covered in [liquid]",   
-      "is [creature]"
+      "is a [creature]"
       ],
 
 
@@ -304,6 +311,7 @@
     "partytempters": [
       "[1d4] gold teeth",
       "[item]",
+      "a locked door",
       "a dead body",
       "a complex clockwork lockbox",
       "a pirate chest",
@@ -343,6 +351,29 @@
       "believing they are an undercover health inspector",
       "unable to perceive anyone wearing leather"
     ],
+
+    "micro_biome": [
+  "A bog of eternal stench",
+  "The castle of Greyskull",    
+  "A 15-foot patch of Dagobah swamp complete with fog and bubbling mud",
+  "A miniature Jurassic jungle with dense ferns and distant tiny roars",
+  "A slice of the Fire Swamp with miniature flame spurts and popping sand",
+  "A 10-foot chunk of Rainbow Road with zero friction and blinding neon tiles",
+  "A 20-foot perimeter of Silent Hill fog with faint air raid sirens echoing",
+  "A pocket of the Upside Down covered in clinging ash and fleshy vines",
+  "A Hobbit house",
+  "A micro-dune of Arrakis sand that rhythmically vibrates",
+  "A miniature Candyland meadow made of sticky licorice and peppermint boulders",
+  "A rusted scrap heap",
+  "A patch of bioluminescent jungle with gently glowing moss",
+  "A disco dance floor with pulsing floor panels and zero gravity",
+  "A yellow brick road",
+   "A tiny overgrown graveyard complete with crooked, lichen-covered headstones",
+  "A pocket dimension ball pit from a 1990s Chuck E. Cheese",
+  "A stretch of scorched Cybertron metal plate leaking purple energon coolant",
+  "A pocket glacial ice sheet that makes teeth chatter instantly"
+],
+    
     "hazard": [
       "a sudden localized grease slick",
       "a hail of rubber chickens",
