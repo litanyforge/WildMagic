@@ -1,47 +1,13 @@
 {
   "surges": [
-    
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-    "A big red button appears. If pressed grant 1 energy and '[surges]'",
-
-    
+        
     "[partytempters], pulsing with [energy_type] appears",
     "a big red button appears (roll to see what happens, but give them an energy if they press)",
     "[target] gains the aspect '[aspect]' until the end of the game session.",
-    "[target] becomes a [creature] [duration].",
+    "[target] [actions]",
+     "[target] [actions]",
+     "[target] [actions]",
+
     "Lamp! Norris's Lamp suddenly sucks in [target] for [1d4] rounds",
     "Darth Jar Jar appears and force chokes [target] while taunting them",
     "Nasrond's Blessing! [target] becomes drunk [duration]",
@@ -51,11 +17,11 @@
     "Titan's Blessing! [target] must yell and power up [duration]",
     "Stanley's Curse! [target] is transformed into a dog [duration]",
     "Cast [spell] on [target].",
-    "[target] believes [target_other] [belief]",
+    "[target] believes [target_other] [belief] [duration]",
     "[target] [belief] [duration]",
     "A localized arcane portal opens above [target_loc] and dumps 50 gallons of [liquid] directly onto the floor!",
     "Fold Wave activated! Machines overclock, inspiration is provided, or emotions swell.",
-    "[target] swaps physical positions with [target_other] instantly!",
+
     "Care Bear Stare! A beam shoots out of [target_party] and hits [target_enemy]. They must make a DC 15 will save or be filled with love. A 1 makes the effect permanent.",
     "Tharizdun's Curse! The DM gains a fear token!",
     "Nearby water becomes [liquid] for [duration]",
@@ -72,11 +38,11 @@
     "Titan's Curse! [target] shrinks down and becomes a living ball the size of a bowling ball for [duration]",
     "The Dysoning! Loose objects and small animals are sucked towards [target]",
     "A [creature] appears beside [target] [duration].",
-    "[target] glows with a magical light and is affected by [spell]!",
+
     "Knowing is half the battle! A voice loudly narrates a secret!",
-    "[target] forgets the names of all allies and believes [target_other] is their bitter childhood rival [duration]!",
-    "[target_party] gains one energy, but vomits [liquid] immediately after!",
-    "[target] begins [quirk] [duration]",
+    "[target] [actions] and believes [target_other] [belief] [duration]!",
+    "[target_party] [actions]",
+
     "A ghost appears for everyone to see (possibly a kobold)",
     "[target] is teleported to [target_loc]",
     "A bog of eternal stench appears in [target_loc]",
@@ -218,6 +184,7 @@
   "krogan",
   "turian",
   "asari",
+  "childhood rival",   
   "salarian",
   "quarian in an environmental suit",
   "cyberpunk street samurai cyborg",
@@ -314,7 +281,21 @@
       "is a [creature]"
       ],
 
-
+"actions": [
+      "jumps up and down uncontrollably",
+      "forgets their allies names",
+      "begins [quirk] [duration]",
+    "begins [quirk] [duration]",
+      "swaps physical positions with [target_other] instantly!",
+      "becomes a [creature] [duration].",
+      "becomes a [creature] [duration].",
+      "gains 1 energy but begins [quirk[ [duration]",
+      "gains one energy, but vomits [liquid] immediately after!",
+      "glows with a magical light and is affected by [spell]!",
+      "gains the aspect '[aspect]' for the rest of the session",
+      "gains 1 energy",
+      "loses all hope"
+    ],
     
     "duration": [
       "for 1 round",
