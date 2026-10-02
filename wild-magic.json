@@ -200,7 +200,7 @@
       "orc"
     ],
 
-    "descriptors": [
+    "descriptor": [
   "furious",
   "racist",
       
@@ -290,7 +290,7 @@
       "swaps physical positions with [target_other] instantly!",
       "becomes a [creature] [duration].",
       "becomes a [creature] [duration].",
-      "gains 1 energy but begins [quirk[ [duration]",
+      "gains 1 energy but begins [quirk] [duration]",
       "gains one energy, but vomits [liquid] immediately after!",
       "glows with a magical light and is affected by [spell]!",
       "gains the aspect '[aspect]' for the rest of the session",
