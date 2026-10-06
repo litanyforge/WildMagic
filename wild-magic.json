@@ -70,6 +70,11 @@
 
 "trigger": [
   "whenever the bearer lies",
+  "whenever someone experiences [emotion]",
+  "if exposed to [weather]",
+  "while submerged in [liquid]",
+  "whenever someone rolls a 1",
+  "if threated with a [weapon]",
   "at the start of combat",
   "when exposed to moonlight",
   "whenever someone rolls a natural 1",
@@ -163,6 +168,9 @@
 
     "verbs": [
       "freezes",
+      "audits",
+      "agressively misinterprets",
+      "weaponizes",
      "melts",
      "burns",
       "creates",
