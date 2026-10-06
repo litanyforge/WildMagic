@@ -61,6 +61,9 @@
 
 "loot": [
     "[item]",
+    "[mundane_item]",
+    "a [container]",
+    "a [weapon]",
     "[1d6x10] gold and [item]",
     "A [container] stamped with an unbroken wax seal, containing [1d4x25] gold",
     "A [container] containing a vial of [liquid] and [item]",
@@ -147,6 +150,7 @@
      "subjects": [
      "[animal]s",
        "[race]s",
+       "[weapon]s",
        "[monster]s",
        "[liquid]",
        "[energy_type]",
