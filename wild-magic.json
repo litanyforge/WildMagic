@@ -70,7 +70,30 @@
   
   "variables": {
 
+"lootbase": [
+      "sword",
+    "[animal] paw",
+     "box",
+     "orb",
+      "wand"
+    ],
 
+    "verbs": [
+      "freezes",
+     "melts",
+     "burns",
+      "creates",
+      "liquifies",
+      "provides",
+      "grants dominion over",
+      "destroys"
+    ],
+
+     "subjects": [
+     "[creature]s",
+       "[liquid]",
+       "[energytype]"
+    ],
 
      "d4": [
       "1",
