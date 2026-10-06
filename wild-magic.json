@@ -41,7 +41,7 @@
 
     "Knowing is half the battle! A voice loudly narrates a secret!",
     "Wild magic makes [target] [action] and believe [target_other] [belief] [duration]!",
-    "Wild magic makes[target_party] [action]",
+    "Wild magic makes [target_party] [action]",
 
     "A ghost appears for everyone to see (possibly a kobold)",
     "[target] is teleported to [target_loc]",
@@ -64,15 +64,32 @@
   "[lootstuff]",
   "[weirdshit]"
   ],
+
+"trigger": [
+  "whenever the bearer lies",
+  "at the start of combat",
+  "when exposed to moonlight",
+  "whenever someone rolls a natural 1",
+  "if dipped in [liquid]"
+]
   
   "variables": {
 
+"trigger": [
+  "whenever the bearer lies",
+  "at the start of combat",
+  "when exposed to moonlight",
+  "whenever someone rolls a natural 1",
+  "if dipped in [liquid]"
+]
+    
 "lootstuff": [
     "[item]",
     "[paper]",
     "[gold] and [item]",
     "A [container] containing [container_stuff]",
     "A [lootbase] that [verbs] [subjects]",
+  "A [lootbase] that [verbs] [subjects] [triggers]",
     "A [lootbase] that grants the power to [action]"
      
     ],
@@ -194,13 +211,12 @@
        "leaks [liquid]",
 "compels the bearer to [action]",
   "whispers that it [belief] at night",
-  "[mundane_item]s",
   "smells strongly of [liquid]"
     ],
 
 "food": [
-     "[food_items]",
-    "[food_adj] [food_items]"
+     "[food_item]",
+    "[food_adj] [food_item]"
     ],
     
 "food_adj": [
@@ -698,7 +714,7 @@
 "clothing": [
 
 "[clothing_item]",
-"[clothing_item] [clothing_material]"
+"[cloth_material] [clothing_item]"
 
 ],
 
@@ -728,7 +744,7 @@
   "padded gambeson liner",
   "corset vest",
   "smuggler's overcoat"
-]
+],
 
 "cloth_material": [
   "waxed canvas",
@@ -749,7 +765,7 @@
   "bleached sailcloth",
   "felted wool",
   "reinforced mesh"
-]
+],
 
 
     
