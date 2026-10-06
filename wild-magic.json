@@ -310,16 +310,15 @@
     ],
     
      "subjects": [
-     "[animal]s",
-       "[race]s",
+     
+       "[creature]s",
+       "[item]s",
        "[weapon]s",
-       "[monster]s",
        "[liquid]",
        "[energy_type]",
        "[material]",
   "[emotion]",
   "[weather]",
-  "[mundane_item]s",
   "[body_part]s"
     ],
 
