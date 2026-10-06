@@ -185,6 +185,30 @@
   "smells strongly of [liquid]"
     ],
 
+"armor_type": [
+  "breastplate",
+  "chainmail hauberk",
+  "cuirass",
+  "brigandine vest",
+  "gambeson",
+  "spaulders",
+  "greaves",
+  "gauntlets",
+  "helm",
+  "sallet helm",
+  "visored bascinet",
+  "gorget",
+  "scale coat",
+  "segmented cuirass",
+  "lamellar vest",
+  "buckler",
+  "heater shield",
+  "tower shield",
+  "kite shield",
+  "targe"
+]
+
+    
 "weapon": [
       "greataxe",
      "crossbow",
@@ -589,6 +613,65 @@
       "glowing purple arcane energy",
       "thunderous concussive bass"
     ],
+
+"clothing": [
+
+"[clothing_item]",
+"[clothing_item] [clothing_material]"
+
+],
+
+
+"clothing_item": [
+  "duster coat",
+  "hooded cowl",
+  "work apron",
+  "greatcoat",
+  "fingerless gloves",
+  "tunic",
+  "heavy poncho",
+  "riding trench",
+  "scavenger's bandolier",
+  "knee-high jackboots",
+  "fur-lined mantle",
+  "tailored vest",
+  "hobnail boots",
+  "frayed scarf",
+  "wide-brimmed hat",
+  "breeches",
+  "plague mask",
+  "miner's coveralls",
+  "tabard",
+  "goggles strap",
+  "heavy wool cloak",
+  "padded gambeson liner",
+  "corset vest",
+  "smuggler's overcoat"
+]
+
+"cloth_material": [
+  "waxed canvas",
+  "heavy burlap",
+  "threadbare linen",
+  "crushed velvet",
+  "boiled wool",
+  "greasy oilskin",
+  "quilted cotton",
+  "tattered silk",
+  "wrinkled",
+  "muddy",
+  "coarse hemp",
+  "moth-eaten brocade",
+  "supple deerskin",
+  "scuffed split-leather",
+  "heavy herringbone tweed",
+  "bleached sailcloth",
+  "felted wool",
+  "reinforced mesh"
+]
+
+
+    
     "material": [
   "unrefined bronze",
       "dragonscale",
@@ -638,13 +721,16 @@
 ],
 
 "item": [
+      "[clothing]",
       "[material] [itemlist]",
       "[itemlist]"
+  
     ],
 
     
 "itemlist": [
       "[mundane_item]",
+      "[armor_type]",
       "[weapon]"
     ],
     
