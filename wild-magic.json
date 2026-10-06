@@ -76,7 +76,33 @@
     "[animal] paw",
      "box",
      "orb",
-      "wand"
+      "wand",
+  "dagger",
+  "ring",
+  "heavy brass key",
+  "amulet",
+  "lantern",
+  "cracked mirror",
+  "flask",
+  "pair of spectacles",
+  "rusty pocket watch",
+  "silver thimble",
+  "wooden spoon",
+  "tuning fork",
+  "clay jug",
+  "iron bell",
+  "spinning top",
+  "dentured skull",
+  "brass compass",
+  "leather belt buckle",
+  "quill",
+  "crumpled monocle",
+  "heavy door knocker",
+  "ceramic tea cup",
+  "tin music box",
+  "carved pipe",
+  "pair of loaded dice"
+]
     ],
 
     "verbs": [
@@ -87,7 +113,24 @@
       "liquifies",
       "provides",
       "grants dominion over",
-      "destroys"
+      "destroys",
+      "magnetizes",
+  "violently repels",
+  "summons a swarm of",
+  "teleports into the nearest pile of",
+  "transmutes stone into",
+  "screams loudly in the presence of",
+  "renders the wielder invisible only to",
+  "inflicts uncontrollable dancing on",
+  "enchants all nearby",
+  "overclocks",
+  "turns inside-out",
+  "causes explosive diarrhea in",
+  "whispers terrible secrets about",
+  "temporarily shrinks",
+  "confuses and disorients",
+  "reverses the gravitational pull on",
+  "infuses weapons with the essence of"
     ],
 
      "subjects": [
@@ -95,7 +138,12 @@
        "[race]s",
        "[monster]s",
        "[liquid]",
-       "[energy_type]"
+       "[energy_type]",
+       "[material]",
+  "[emotion]",
+  "[weather]",
+  "[mundane_item]s",
+  "[body_part]s"
     ],
 
      "d4": [
@@ -463,6 +511,59 @@
       "toxic acidic sludge",
       "glowing purple arcane energy",
       "thunderous concussive bass"
-    ]
+    ],
+    "material": [
+  "unrefined bronze",
+  "pig iron",
+  "brittle glass",
+  "rotten timber",
+  "pure electrum",
+  "heavy lead",
+  "tarnished silver",
+  "volcanic obsidian",
+  "cheap porcelain",
+  "magnetic lodestone"
+],
+
+"emotion": [
+  "existential dread",
+  "blinding rage",
+  "unearned supreme confidence",
+  "crippling paranoia",
+  "profound boredom",
+  "wild romantic infatuation",
+  "sudden nostalgia",
+  "primal panic"
+],
+
+"weather": [
+  "localized ball lightning",
+  "dense theatrical fog",
+  "scalding acid rain",
+  "unseasonable hail",
+  "gale-force wind gusts",
+  "sweltering heat shimmers"
+],
+
+"mundane_item": [
+  "padlock",
+  "carriage wheel",
+  "cobblestone",
+  "shoe heel",
+  "beer stein",
+  "iron nail",
+  "rope knot",
+  "frying pan",
+  "window pane"
+],
+
+"body_part": [
+  "teeth",
+  "left thumbs",
+  "elbow joints",
+  "eyebrows",
+  "kneecaps",
+  "facial hair"
+]
   }
 }
