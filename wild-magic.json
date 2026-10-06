@@ -185,6 +185,75 @@
   "smells strongly of [liquid]"
     ],
 
+"food": [
+     "[food_items]",
+    "[food_adj] [food_items]"
+    ],
+    
+"food_adj": [
+  "fancy",
+  "spoiled",
+  "moldy",
+  "stale",
+  "charred",
+  "heavily salted",
+  "fermented",
+  "lukewarm",
+  "congealed",
+  "pickled",
+  "greasy",
+  "smoking hot",
+  "frost-rimed",
+  "curdled",
+  "honey-glazed",
+  "dry-cured",
+  "pungent",
+  "partially gnawed",
+  "over-seasoned",
+  "slimy",
+  "hard-tack",
+  "wax-sealed",
+  "caramelized",
+  "rancid",
+  "artisan",
+  "half-eaten",
+  "sun-dried",
+  "peppery",
+  "saccharine sweet",
+  "briny"
+],    
+
+"food_item": [
+  "wheel of cheese",
+  "loaf of rye bread",
+  "handful of dried sausages",
+  "meat pie",
+  "slab of salt pork",
+  "smoked fish filet",
+  "tin of sardines",
+  "turnip",
+  "handful of roasted hazelnuts",
+  "pouch of trail pemmican",
+  "hard-boiled egg",
+  "bowl of mutton stew",
+  "link of blood sausage",
+  "honeycomb chunk",
+  "pot of bean paste",
+  "roasted pigeon",
+  "strip of beef jerky",
+  "wedge of hard goat cheese",
+  "biscuit",
+  "pickled herring",
+  "handful of dried dates",
+  "parsnip",
+  "crock of lard",
+  "apple",
+  "dough pastry",
+  "cured ham hock",
+  "portion of field porridge",
+  "jar of pickled beets"
+],    
+
 "armor_type": [
   "breastplate",
   "chainmail hauberk",
@@ -206,7 +275,7 @@
   "tower shield",
   "kite shield",
   "targe"
-]
+],
 
     
 "weapon": [
@@ -722,6 +791,7 @@
 
 "item": [
       "[clothing]",
+      "[food]",
       "[material] [itemlist]",
       "[itemlist]"
   
