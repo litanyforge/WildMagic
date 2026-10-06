@@ -598,7 +598,7 @@
       "steel",
       "wood",
       "ancient oak",
-  "pig iron",
+  "iron",
   "brittle glass",
   "heavy",
   "leather",
@@ -641,6 +641,7 @@
       "[material] [itemlist]",
       "[itemlist]"
     ],
+
     
 "itemlist": [
       "[mundane_item]",
@@ -697,7 +698,7 @@
 "bellows"
 ],
 
-"body_part": [
+"body_part_list": [
   "tooth",
   "gold tooth",
   "raptor feather",
@@ -709,6 +710,11 @@
   "leg",
   "kneecap",
   "facial hair"
+]
+    
+"body_part": [
+  "[body_part_list]",
+  "[creature] [body_part_list]"
 ]
   }
 }
