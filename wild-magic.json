@@ -71,6 +71,13 @@
   "variables": {
 
 "gold": [
+  "[randomnumber] gold pieces",
+  "[randomnumber] gold coins"
+ 
+   
+    ],
+    
+"randomnumber": [
   "[1d6x10]",
   "[1d6x1]",
   "[1d10x5]",
