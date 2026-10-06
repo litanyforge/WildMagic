@@ -61,20 +61,69 @@
 
 "loot": [
     "[item]",
-    "an empty [container]",
-    "[1d6x10] gold and [item]",
-    "A [container] containing [1d4x25] gold",
-    "A [container] containing a vial of [liquid]",
-    "A [container] containing [item]",
+    "[paper]",
+    "[gold] and [item]",
+    "A [container] containing [container_stuff]",
     "A [lootbase] that [verbs] [subjects]",
-    "A [lootbase] that grants the power to [action]",
-    "[1d10x5] gold sewn into the hem of their cloak"
+    "A [lootbase] that grants the power to [action]"
   ],
   
   "variables": {
 
+"gold": [
+  "[1d6x10]",
+  "[1d6x1]",
+  "[1d10x5]",
+  "[1d4x25]"
+   
+    ],
+    
+"container_stuff": [
+      "[paper]",
+      "a vial of [liquid]",
+      "[item]",
+      "nothing",
+      "[gold]"
+   
+    ],
+
+    
+"paper": [
+      "[papers] containing [papercontents]",
+      "[papers]"
+   
+    ],
+    
+"papers": [
+      "a scribbled note",
+    "a crumbled paper",
+    "a weathered scroll",
+    "a tattered sheet of parchment"
+   
+    ],
+
+ "papercontents": [
+      "a campaign secret",
+    "the paper looks empty (invisible note)",
+   "A map of [map]",
+    "a picture of the party with the word 'Wanted'",
+    "a deed to a mysterious tower"
+   
+    ],   
+
+
+    "map": [
+      "The Temple of Titan",
+      "Undermountain",
+      "The Underlight",
+      "The Arrakis Desert"
+     
+
+    ],
+    
 "lootbase": [
       "[item]",
+    "[item]",
     "[animal] ",
     "[body_part]",
      "[item]"
@@ -169,6 +218,7 @@
     ],
 "container": [
 "[material] lockbox",
+"a hidden pocket sewn into clothing",  
 "hollowed-out [animal]",
 "[material] lunch pail",
 "velvet dice bag",
@@ -439,6 +489,8 @@
       "viscous purple slime",
       "hot clam chowder",
       "fermented cabbage juice",
+      "honey",
+      "scented oil",
       "sparkling glitter water",
       "ale",
       "arcane blood",
@@ -598,9 +650,12 @@
   "rope knot",
   "frying pan",
   "orb",
+  "cube",
+  "figurine",
+  "key",
   "grappling hook",
   "ring",
-  "brass key",
+  "[race] key",
   "amulet",
   "lantern",
   "cracked mirror",
@@ -636,7 +691,9 @@
 ],
 
 "body_part": [
-  "teeth",
+  "tooth",
+  "gold tooth",
+  "raptor feather",
   "left thumb",
   "elbow joint",
   "eyebrow",
