@@ -62,8 +62,8 @@
 "loot": [
     "[item]",
     "[1d6x10] gold and [item]",
-    "A sealed envelope stamped with an unbroken wax seal, containing [1d4x25] gold",
-    "A rusted lockbox containing a vial of [liquid] and [item]",
+    "A [container] stamped with an unbroken wax seal, containing [1d4x25] gold",
+    "A [container] containing a vial of [liquid] and [item]",
     "A [lootbase] that [verbs] [subjects]",
     "A [lootbase] that grants the power to [action]",
     "[1d10x5] gold sewn into the hem of their cloak"
