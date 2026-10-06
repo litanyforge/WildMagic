@@ -58,6 +58,16 @@
     "Dance magic dance! Everyone in the area joins together in a musical number.",
     "Gravity reverses only for [target] [duration]!"
   ],
+
+"loot": [
+    "[item]",
+    "[1d6x10] gold and [item]",
+    "A sealed envelope stamped with an unbroken wax seal, containing [1d4x25] gold",
+    "A rusted lockbox containing a vial of [liquid] and [item]",
+  
+    "[1d10x5] gold sewn into the hem of their cloak"
+  ],
+  
   "variables": {
 
 
@@ -359,6 +369,8 @@
       "Loudly In denial About Being Lost"
     ],
     "item": [
+      "a BIG ASS SWORD OF OMENS TYPE WEAPON",
+      "A RANDOMIZED PIECE OF LOOT THAT IM PUTTING HERE",
       "a sputtering car battery",
       "an unpinned training grenade",
       "a squeaking rubber chicken",
