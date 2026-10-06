@@ -4,9 +4,9 @@
     "[partytempters], pulsing with [energy_type] appears",
     "a big red button appears (roll to see what happens, but give them an energy if they press)",
     "[target] gains the aspect '[aspect]' until the end of the game session.",
-    "[target] [actions]",
-     "[target] [actions]",
-     "[target] [actions]",
+    "Wild actions makes [target] [action]",
+    "Wild actions makes [target] [action]",
+     "Wild actions makes [target] [action]",
 
     "Lamp! Norris's Lamp suddenly sucks in [target] for [d4] rounds",
     "Darth Jar Jar appears and force chokes [target] while taunting them",
@@ -40,8 +40,8 @@
     "A [creature] appears beside [target] [duration].",
 
     "Knowing is half the battle! A voice loudly narrates a secret!",
-    "[target] [actions] and believes [target_other] [belief] [duration]!",
-    "[target_party] [actions]",
+    "Wild magic makes [target] [action] and believe [target_other] [belief] [duration]!",
+    "Wild magic makes[target_party] [action]",
 
     "A ghost appears for everyone to see (possibly a kobold)",
     "[target] is teleported to [target_loc]",
@@ -65,7 +65,7 @@
     "A sealed envelope stamped with an unbroken wax seal, containing [1d4x25] gold",
     "A rusted lockbox containing a vial of [liquid] and [item]",
     "A [lootbase] that [verbs] [subjects]",
-  
+    "A [lootbase] that grants the power to [action]",
     "[1d10x5] gold sewn into the hem of their cloak"
   ],
   
@@ -91,9 +91,11 @@
     ],
 
      "subjects": [
-     "[creature]s",
+     "[animal]s",
+       "[race]s",
+       "[monster]s",
        "[liquid]",
-       "[energytype]"
+       "[energy_type]"
     ],
 
      "d4": [
@@ -324,21 +326,21 @@
       "is a [creature]"
       ],
 
-"actions": [
-      "jumps up and down uncontrollably",
-      "forgets their allies names",
-      "begins [quirk] [duration]",
-      "transforms into a giant robot, that looks vaguely like an automobile [duration]",
-    "begins [quirk] [duration]",
-      "swaps physical positions with [target_other] instantly!",
-      "becomes a [creature] [duration].",
-      "becomes a [creature] [duration].",
-      "gains 1 energy but begins [quirk] [duration]",
-      "gains one energy, but vomits [liquid] immediately after!",
-      "glows with a magical light and is affected by [spell]!",
-      "gains the aspect '[aspect]' for the rest of the session",
-      "gains 1 energy",
-      "loses all hope"
+"action": [
+      "jump up and down uncontrollably",
+      "forget their allies names",
+      "[quirk] [duration]",
+      "transform into a giant robot, that looks vaguely like an automobile [duration]",
+    "[quirk] [duration]",
+      "swap physical positions with [target_other] instantly!",
+      "become a [creature] [duration].",
+      "become a [creature] [duration].",
+      "gain 1 energy but begins [quirk] [duration]",
+      "gain one energy, but vomits [liquid] immediately after!",
+      "glow with a magical light and is affected by [spell]!",
+      "gain the aspect '[aspect]' for the rest of the session",
+      "gain 1 energy",
+      "lose all hope"
     ],
     
     "duration": [
