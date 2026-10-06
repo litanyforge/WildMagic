@@ -61,12 +61,11 @@
 
 "loot": [
     "[item]",
-    "[mundane_item]",
-    "a [container]",
-    "a [weapon]",
+    "an empty [container]",
     "[1d6x10] gold and [item]",
-    "A [container] stamped with an unbroken wax seal, containing [1d4x25] gold",
-    "A [container] containing a vial of [liquid] and [item]",
+    "A [container] containing [1d4x25] gold",
+    "A [container] containing a vial of [liquid]",
+    "A [container] containing [item]",
     "A [lootbase] that [verbs] [subjects]",
     "A [lootbase] that grants the power to [action]",
     "[1d10x5] gold sewn into the hem of their cloak"
@@ -75,10 +74,10 @@
   "variables": {
 
 "lootbase": [
-      "[weapon]",
+      "[item]",
     "[animal] ",
     "[body_part]",
-     "[mundane_item]"
+     "[item]"
      
 
     ],
@@ -134,6 +133,7 @@
       "greataxe",
      "crossbow",
      "great bow",
+  "crowbar",
         "war pick",
   "maul",
   "rapier",
@@ -168,14 +168,14 @@
       "4"
     ],
 "container": [
-     "rusted lockbox",
+"[material] lockbox",
 "hollowed-out [animal]",
-"dented lunch pail",
+"[material] lunch pail",
 "velvet dice bag",
 "sarcophagus",
 "hatbox",
 "tackle box",
-"urn labeled 'definitely not ashes'",
+"urn",
 "cookie tin",
 "[material] strongbox"
     
@@ -469,16 +469,7 @@
       "Greedy to a Fault",
       "Loudly In denial About Being Lost"
     ],
-    "item": [
-      "a BIG ASS SWORD OF OMENS TYPE WEAPON",
-      "A RANDOMIZED PIECE OF LOOT THAT IM PUTTING HERE",
-      "a sputtering car battery",
-      "an unpinned training grenade",
-      "a squeaking rubber chicken",
-      "a rusty crowbar",
-      "a steaming personal pizza",
-      "a live electrical cable"
-    ],
+    
     "quirk": [
       "screaming like a tea kettle",
       "believing they are an undercover king",
@@ -587,6 +578,16 @@
   "sweltering heat shimmers"
 ],
 
+"item": [
+      "[material] [itemlist]",
+      "[itemlist]"
+    ],
+    
+"itemlist": [
+      "[mundane item]",
+      "[weapon]"
+    ],
+    
 "mundane_item": [
   "padlock",
   "carriage wheel",
