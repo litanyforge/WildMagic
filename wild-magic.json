@@ -65,13 +65,6 @@
   "[weirdshit]"
   ],
 
-"trigger": [
-  "whenever the bearer lies",
-  "at the start of combat",
-  "when exposed to moonlight",
-  "whenever someone rolls a natural 1",
-  "if dipped in [liquid]"
-]
   
   "variables": {
 
@@ -81,7 +74,7 @@
   "when exposed to moonlight",
   "whenever someone rolls a natural 1",
   "if dipped in [liquid]"
-]
+],
     
 "lootstuff": [
     "[item]",
@@ -89,7 +82,7 @@
     "[gold] and [item]",
     "A [container] containing [container_stuff]",
     "A [lootbase] that [verbs] [subjects]",
-  "A [lootbase] that [verbs] [subjects] [triggers]",
+  "A [lootbase] that [verbs] [subjects] [trigger]",
     "A [lootbase] that grants the power to [action]"
      
     ],
