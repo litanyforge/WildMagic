@@ -52,7 +52,7 @@
     "It's a trap! An ethereal holographic Mon Calamari screams in [target]'s face, revealing every hidden creature and ambush trigger in the room!",
     "Leeroy Jenkins resonance! [target_party] is overcome with reckless courage and must immediately charge into melee combat screaming!",
     "Mortal Kombat voiceover! A booming announcer yells 'FINISH HIM!' above [target_enemy]—the next hit against them automatically deals an extra 1d10 damage!",
-
+    "It starts raining [mundane_item]s for [duration]",
     "lightning strikes [target] from the sky, their shirt rips. They gain the power of grayskull and 10 temp hp. They do double damage on attacks for [d4] rounds.",
     "Sight Beyond Sight: [target]'s eyes glow. Can see through illusions and invisibility within 60', and know the exact location of any named object or creature. Lasts 5 minutes or until used",
     "Dance magic dance! Everyone in the area joins together in a musical number.",
@@ -133,6 +133,21 @@
   "infuses weapons with the essence of"
     ],
 
+"drawback": [
+     "screams whenever [emotion] is felt nearby",
+       "attracts [monster]s",
+       "gains [1d4x10] pounds each dawn",
+       "only functions [duration]",
+       "insults the wielder in a [descriptor] voice",
+       "leaks [liquid]",
+"compels the bearer to [action]",
+  "[weather]",
+  "[mundane_item]s",
+  "[body_part]s"
+    ],
+
+
+    
      "subjects": [
      "[animal]s",
        "[race]s",
@@ -152,7 +167,19 @@
      "3",
       "4"
     ],
-
+"container": [
+     "rusted lockbox",
+"hollowed-out [animal]",
+"dented lunch pail",
+"velvet dice bag",
+"sarcophagus",
+"hatbox",
+"tackle box",
+"urn labeled 'definitely not ashes'",
+"cookie tin",
+"[material] strongbox"
+    
+    ],
 
      "tharblessing": [
      "[target_loc] is erased from existence [duration]",
