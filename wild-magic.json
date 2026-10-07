@@ -666,9 +666,15 @@
     ],
 
 "potion": [
-
   
-  "[drinkcontainer] of [liquid]. If drank [verbs] your [body_part]"
+  "[drinkcontainer] of [liquid]. If drank, gain 1 energy and [quirk] [duration]",
+  "[drinkcontainer] of [liquid]. If drank, gain 1 energy but [drawback] [duration]",
+  "[drinkcontainer] of [liquid]. If drank, you can immediately cast [spell]",
+  "[drinkcontainer] of [liquid]. If drank, speak with [creature]s [duration]",
+  "[drinkcontainer] of [liquid]. If drank, gain [energy_type] breath [duration]",  
+  "[drinkcontainer] of [liquid]. If drank, grants [aspect] [duration]",
+  "[drinkcontainer] of [liquid]. If drank, your [body_part]s [verbs] [subjects] [duration]",
+  "[drinkcontainer] of [liquid]. If drank [verbs] your [body_part] [duration]"
 
 ],
     
