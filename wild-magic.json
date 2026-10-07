@@ -346,20 +346,35 @@
       "4"
     ],
 "container": [
-"[material] lockbox",
-"hidden pocket sewn into clothing",  
-"hollowed-out [animal]",
-"[material] lunch pail",
-"velvet dice bag",
-"sarcophagus",
-"hatbox",
-"tackle box",
-"urn",
-"cookie tin",
-"[material] strongbox"
+  "[material] lockbox",
+  "hidden pocket sewn into clothing",  
+  "hollowed-out [animal]",
+  "[material] lunch pail",
+  "velvet dice bag",
+  "sarcophagus",
+  "hatbox",
+  "tackle box",
+  "urn",
+  "cookie tin",
+  "[material] strongbox"
     
-    ],
+],
 
+"drinkcontainer": [
+  "flask",
+  "clay jug",
+  "mason jar",
+  "drinking horn",
+  "crystal phial",
+  "decanter",
+  "potion bottle",
+  "wineskin",
+  "leather canteen",
+  "canteen",
+  "vial"
+    
+],
+    
      "tharblessing": [
      "[target_loc] is erased from existence [duration]",
      "The DM gains a fear token",
