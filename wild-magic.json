@@ -690,7 +690,7 @@
   "[drinkcontainer] of [liquid]. If drank, speak with [creature]s [duration]",
   "[drinkcontainer] of [liquid]. If drank, gain [energy_type] breath [duration]",  
   "[drinkcontainer] of [liquid]. If drank, grants [aspect] [duration]",
-  "[drinkcontainer] of [liquid]. If drank, your [body_part_list]s [verbs] [subjects] [duration]",
+  "[drinkcontainer] of [liquid]. If drank, your [body_part_list] [verbs] [subjects] [duration]",
   "[drinkcontainer] of [liquid]. If drank [verbs] your [body_part_list] [duration]"
 
 ],
