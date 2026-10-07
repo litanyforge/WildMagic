@@ -633,6 +633,11 @@
 "spell_shape": [
 
   "shoots out a ball of",
+  "rains down shards of",
+  "summons a storm of",
+  "exhales a cone of",
+  "detonates a nova of",
+  "sneezes out a spray of",
   "creates a wall of",
   "blasts out a beam of"
 
@@ -786,7 +791,14 @@
     ],
     "energy_type": [
       "scorching plasma",
-      "crackling psychic lightning",
+      "holy radiance",
+      "howling frostwind",
+      "necrotic fog",
+      "dragonfire",
+      "chaos",
+      "wild magic",
+      "angry bees",
+            "crackling psychic lightning",
       "freezing nitrogen",
       "toxic acidic sludge",
       "glowing purple arcane energy",
