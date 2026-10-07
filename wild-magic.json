@@ -394,7 +394,7 @@
      "[animal]",
      "[descriptor] [race]",
      "[descriptor] [animal]",
-     "[race] with aspect [aspect]",
+     "[race] with aspect '[aspect]'",
      "[monster]",
      "[race]"
     ],
@@ -689,7 +689,7 @@
   "[drinkcontainer] of [liquid]. If drank, you can immediately cast [spell]",
   "[drinkcontainer] of [liquid]. If drank, speak with [creature]s [duration]",
   "[drinkcontainer] of [liquid]. If drank, gain [energy_type] breath [duration]",  
-  "[drinkcontainer] of [liquid]. If drank, grants [aspect] [duration]",
+  "[drinkcontainer] of [liquid]. If drank, grants '[aspect]' [duration]",
   "[drinkcontainer] of [liquid]. If drank, your [body_part_list] [verbs] [subjects] [duration]",
   "[drinkcontainer] of [liquid]. If drank [verbs] your [body_part_list] [duration]"
 
