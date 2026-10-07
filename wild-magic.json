@@ -7,7 +7,7 @@
     "Wild magic makes [target] [action]",
     "Wild magic makes [target] [action]",
      "Wild magic makes [target] [action]",
-
+    "[lootstuff] falls from the sky at [target]'s feet",
     "Lamp! Norris's Lamp suddenly sucks in [target] for [d4] rounds",
     "Darth Jar Jar appears and force chokes [target] while taunting them",
     "Nasrond's Blessing! [target] becomes drunk [duration]",
@@ -23,7 +23,7 @@
     "Fold Wave activated! Machines overclock, inspiration is provided, or emotions swell.",
 
     "Care Bear Stare! A beam shoots out of [target_party] and hits [target_enemy]. They must make a DC 15 will save or be filled with love. A 1 makes the effect permanent.",
-
+    "[target] sneezes violently, and [verbs] any nearby [subjects]",
     "Nearby water becomes [liquid] for [duration]",
     "Tharizdun's Blessing! [tharblessing]",
     "Marsara's curse! [target] can only speak in Raptor [duration]",
@@ -574,6 +574,8 @@
     ],
 
     "belief": [
+      "[verbs] [subjects]",
+      "is in [metaphysicalsetting]",
       "is [quirk]",
       "is [descriptor]",
       "is covered in [liquid]",   
@@ -666,6 +668,15 @@
       "unable to perceive anyone wearing leather"
     ],
 
+"metaphysicalsetting": [
+      "[micro_biome]",
+      "[hazard]",
+      "[energy_type]",
+      "[map]"
+  
+    ],
+
+    
     "micro_biome": [
   "A bog of eternal stench",
   "The castle of Greyskull",    
