@@ -82,13 +82,14 @@
 ],
     
 "lootstuff": [
-    "[item]",
-    "[paper]",
-    "[gold] and [item]",
-    "A [container] containing [container_stuff]",
-    "A [lootbase] that [verbs] [subjects]",
+  "[item]",
+  "[paper]",
+  "[gold]",
+  "[gold] and [item]",
+  "A [container] containing [container_stuff]",
+  "A [lootbase] that [verbs] [subjects]",
   "A [lootbase] that [verbs] [subjects] [trigger]",
-    "A [lootbase] that grants the power to [action]"
+  "A [lootbase] that grants the power to [action]"
      
     ],
 
@@ -115,7 +116,7 @@
     
 "container_stuff": [
       "[paper]",
-      "a vial of [liquid]",
+      "a [drinkcontainer] of [liquid]",
       "[item]",
       "nothing",
       "[gold]"
@@ -639,6 +640,20 @@
       "scented oil",
       "sparkling glitter water",
       "ale",
+      "[creature] blood",
+      "mind flayer brain juice",
+      "troll blood",
+      "kraken ink",
+      "treant sap",
+      "gelatinous cube slurry",
+      "embalming fluid",
+      "dwarven spirits",
+      "orcish grog",
+      "elven wine",
+      "bottled moonlight",
+      "liquid shadow",
+      "holy water",
+      "unholy water",
       "arcane blood",
       "blood",
       "behemoth repellant (dragon piss)",
