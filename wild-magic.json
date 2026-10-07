@@ -1,6 +1,7 @@
 {
   "surges": [
-        
+
+    "[target] [procedural_spell]",
     "[partytempters], pulsing with [energy_type] appears",
     "a big red button appears (roll to see what happens, but give them an energy if they press)",
     "[target] gains the aspect '[aspect]' until the end of the game session.",
@@ -89,6 +90,7 @@
   "[gold] and [item]",
   "A [container] containing [container_stuff]",
   "A [lootbase] that [verbs] [subjects]",
+  "A [lootbase] that [procedural_spell] [trigger]",
   "A [lootbase] that [verbs] [subjects] [trigger]",
   "A [lootbase] that grants the power to [action]"
      
@@ -626,6 +628,21 @@
       "for 10 minutes",
       "until the next dawn"
     ],
+
+"spell_shape": [
+
+  "shoots out a ball of",
+  "creates a wall of",
+  "blasts out a beam of"
+
+],
+
+"procedural_spell": [
+
+  "[spell_shape] [energy_type]"
+
+],
+    
     "spell": [
       "Grease",
       "Levitate",
