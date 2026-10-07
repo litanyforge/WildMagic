@@ -668,7 +668,7 @@
 "potion": [
 
   
-  "[drinkcontainer] of [liquid]. If drank [verbs] your [bodypart]"
+  "[drinkcontainer] of [liquid]. If drank [verbs] your [body_part]"
 
 ],
     
