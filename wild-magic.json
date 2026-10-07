@@ -124,7 +124,7 @@
 
     
 "paper": [
-      "[papers] containing [papercontents]",
+      "[papers] [papercontents]",
       "[papers]"
    
     ],
@@ -138,11 +138,11 @@
     ],
 
  "papercontents": [
-      "a campaign secret",
-    "the paper looks empty (invisible note)",
-   "A map of [map]",
-    "a picture of the party with the word 'Wanted'",
-    "a deed to a mysterious tower"
+      "containing a campaign secret",
+    "that looks empty (invisible note)",
+   "containing a map of [map]",
+    "with a picture of the party and the word 'Wanted'",
+    "and a deed to a mysterious tower"
    
     ],   
 
