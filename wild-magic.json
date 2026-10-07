@@ -85,6 +85,7 @@
   "[item]",
   "[paper]",
   "[gold]",
+  "[potion]",
   "[gold] and [item]",
   "A [container] containing [container_stuff]",
   "A [lootbase] that [verbs] [subjects]",
@@ -178,6 +179,8 @@
       "liquifies",
       "pickles",
       "repels",
+      "grows",
+      "doubles the size of",
       "attracts",
       "detects",
       "resembles",
@@ -189,7 +192,7 @@
   "violently repels",
   "summons a swarm of",
   "teleports into the nearest pile of",
-  "transmutes stone into",
+  "transmutes",
   "screams loudly in the presence of",
   "renders the wielder invisible only to",
   "inflicts uncontrollable dancing on",
@@ -661,6 +664,14 @@
       "syrup",
       "industrial grease"
     ],
+
+"potion": [
+
+  
+  "[drinkcontainer] of [liquid]. If drank [verbs] your [bodypart]"
+
+],
+    
     "partytempters": [
       "[d4] gold teeth",
       "[item]",
