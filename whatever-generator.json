@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "name": "Whatever Generator",
+    "version": "0.1",
+    "date": "2026-11-02",
+    "status": "DRAFT for Keith to shape — every list is editable, nothing here is canon until he keeps it",
+    "idea": "No predefined recipes. A row of slots (3-4 by default, add or remove as needed). Each slot picks a category and rolls a word from it. The output is the bare pile of words with NO connecting words whatsoever — interpretation happens at the table.",
+    "slot_rules": {
+      "category": "slot rolls a random entry from the named category",
+      "word": "a slot can instead be PINNED to a fixed word (written as word:Desert) — this is how targets, biomes, and other context enter; the pinned slot stays fixed while the rest reroll",
+      "reroll": "any single slot can be rerolled without touching the others",
+      "arrangements": "a slot setup that works can be saved below under a name — recipes that condense out of play, never predefined"
+    },
+    "content_rules": [
+      "Fantasy-first: in-world, almost nobody encounters anything non-fantasy, and anything modern reads as ancient.",
+      "Words should be loaded — every entry ideally does double duty when it collides with another slot.",
+      "Lists can be any length; they grow by accretion as good words are found."
+    ],
+    "structure_stolen_from": "Mythic Meaning Tables (action/description split), Ironsworn oracles (action + theme pairing), Maze Rats (multi-column collision generation)"
+  },
+  "categories": {
+    "action": [
+      "Ambush", "Bargain", "Betray", "Bless", "Break", "Bury", "Burn", "Carry", "Chase", "Claim",
+      "Curse", "Deceive", "Defend", "Devour", "Drown", "Escape", "Follow", "Forge", "Guard", "Haunt",
+      "Heal", "Hide", "Hunt", "Imprison", "Mend", "Mock", "Mourn", "Poison", "Praise", "Protect",
+      "Pursue", "Rot", "Rule", "Sacrifice", "Steal", "Summon", "Swear", "Teach", "Trade", "Wake"
+    ],
+    "theme": [
+      "Ambition", "Betrayal", "Blood", "Curiosity", "Debt", "Despair", "Doom", "Exile", "Faith", "Fame",
+      "Freedom", "Glory", "Grief", "Harvest", "Home", "Hope", "Hunger", "Justice", "Law", "Love",
+      "Loyalty", "Luck", "Madness", "Memory", "Mercy", "Oaths", "Patience", "Plague", "Power", "Prophecy",
+      "Rot", "Ruin", "Secrets", "Silence", "Storms", "Survival", "Thirst", "Vengeance", "War", "Wealth"
+    ],
+    "descriptor": [
+      "Ancient", "Ashen", "Blind", "Bound", "Broken", "Burning", "Buried", "Crooked", "Drowned", "Empty",
+      "False", "Festering", "Frozen", "Gilded", "Glass", "Hidden", "Hollow", "Hungry", "Iron", "Jealous",
+      "Kind", "Living", "Lonely", "Loud", "Merciless", "Patient", "Proud", "Rotted", "Sacred", "Salt",
+      "Scarred", "Silent", "Sleeping", "Sunken", "Sweet", "Thorny", "Twisted", "Weeping", "Winter", "Wooden"
+    ],
+    "feature": [
+      "Altar", "Bell", "Bridge", "Cage", "Cellar", "Chains", "Cistern", "Door", "Fountain", "Furnace",
+      "Garden", "Gate", "Grave", "Harbor", "Kiln", "Library", "Market", "Mill", "Mirror", "Pit",
+      "Pool", "Prison", "Roost", "Scaffold", "Shrine", "Stair", "Statue", "Tavern", "Throne", "Tomb",
+      "Tower", "Vault", "Wall", "Well", "Wheel", "Window"
+    ],
+    "being": [
+      "Beggar", "Bride", "Captain", "Cartographer", "Child", "Cook", "Deserter", "Executioner", "Fool", "Gravedigger",
+      "Heir", "Hermit", "Hunter", "Judge", "Knight", "Midwife", "Monk", "Outlaw", "Pilgrim", "Priest",
+      "Prophet", "Queen", "Sailor", "Smith", "Spy", "Surgeon", "Thief", "Warden", "Widow", "Witch"
+    ],
+    "beast": [
+      "Bear", "Boar", "Crane", "Crow", "Dog", "Eel", "Fox", "Goat", "Hart", "Horse",
+      "Hound", "Leech", "Lynx", "Moth", "Ox", "Pike", "Rat", "Serpent", "Spider", "Stag",
+      "Toad", "Viper", "Wolf", "Worm"
+    ],
+    "object": [
+      "Bell", "Blade", "Book", "Bottle", "Bowl", "Box", "Candle", "Chain", "Coin", "Compass",
+      "Crown", "Cup", "Drum", "Egg", "Fan", "Feather", "Idol", "Key", "Knife", "Lantern",
+      "Map", "Mask", "Mirror", "Needle", "Net", "Pearl", "Ring", "Rope", "Seed", "Shard",
+      "Shield", "Shoe", "Spoon", "Tooth", "Vial", "Whistle"
+    ],
+    "material": [
+      "Amber", "Ash", "Bone", "Brass", "Clay", "Copper", "Crystal", "Glass", "Gold", "Hair",
+      "Honey", "Ice", "Iron", "Ivory", "Lead", "Leather", "Marble", "Oak", "Obsidian", "Pearl",
+      "Rust", "Salt", "Silk", "Silver", "Smoke", "Stone", "Tar", "Wax", "Wine", "Wood"
+    ],
+    "force": [
+      "Bloom", "Chill", "Echo", "Ember", "Fever", "Fire", "Flood", "Frost", "Gale", "Glow",
+      "Lightning", "Mire", "Mist", "Quake", "Rain", "Rot", "Shadow", "Spark", "Surge", "Thorns",
+      "Thunder", "Tide", "Venom", "Void"
+    ],
+    "complication": [
+      "Ambush", "Awakening", "Betrayal", "Blockade", "Collapse", "Curse", "Drought", "Duel", "Eclipse", "Exile",
+      "Famine", "Fire", "Flood", "Funeral", "Haunting", "Hunt", "Mutiny", "Omen", "Plague", "Pursuit",
+      "Rivalry", "Shunning", "Siege", "Storm", "Swarm", "Theft", "Trial", "Uprising", "Vanishing", "Wedding"
+    ],
+    "weather": [
+      "Ashfall", "Biting Cold", "Black Rain", "Blood Moon", "Dust Storm", "Endless Rain", "Falling Stars", "First Snow", "Fog", "Frost",
+      "Hail", "Heat Haze", "Heavy Mist", "Ice Storm", "Salt Wind", "Still Air", "Thunderheads", "Whiteout", "Wild Wind", "Wrong Season"
+    ],
+    "omen": [
+      "Corpse Light", "Crying Statue", "Dead Star", "Double Moon", "Drowned Bell", "Empty Cradle", "Fallen Crown", "Footprints", "Green Sun", "Howling",
+      "Laughing Dead", "Red Snow", "Silent Birds", "Speaking Well", "Split Tree", "Still Water", "Three Crows", "Unlit Lamp", "Upside-Down Moon", "Weeping Icon"
+    ]
+  },
+  "arrangements": [
+    {
+      "name": "Story Spark (example — delete freely)",
+      "slots": ["category:action", "category:theme"]
+    },
+    {
+      "name": "Place (example — delete freely)",
+      "slots": ["category:descriptor", "category:feature", "category:complication"]
+    },
+    {
+      "name": "Someone (example — delete freely)",
+      "slots": ["category:being", "category:descriptor", "category:theme"]
+    },
+    {
+      "name": "Desert Place, pinned (example — delete freely)",
+      "slots": ["word:Desert", "category:descriptor", "category:feature"]
+    }
+  ]
+}
