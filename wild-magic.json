@@ -77,7 +77,7 @@
   "variables": {
 
 "surges2": [
-  "[surgespool]\n[surgespool]\n[surgespool]\n[surgespool]\n"
+  "[surgespool]\r\n[surgespool]\r\n[surgespool]\r\n[surgespool]"
 
 ],
 
