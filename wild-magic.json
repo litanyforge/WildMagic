@@ -1,13 +1,6 @@
 {
   "surges": [
-"[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
-    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
-    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
-    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
-    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
-    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
-    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
-    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]"
+"[surges2]"
    
   ],
 
@@ -31,7 +24,7 @@
 ],
 
     "surgespool": [
-  "[BlessingCurse]",    
+
   "[emotion]",
   "[gold]",
   "[paper]",
@@ -57,26 +50,7 @@
   "if dipped in [liquid]"
 ],
 
-"BlessingCurse": [
-  "[pantheon]'s curse!",
-  "[pantheon]'s blessing!"
 
-
-
-  
-    ],
-"pantheon": [
-  "Nasrond",
-  "Heaven",
-  "Stanley",
-  "Galondel",
-  "Dengar",
-  "Titan",
-  "Marsara",
-
-
-  "Tharizdun"
-    ],
 
     
 "lootstuff": [
