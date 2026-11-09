@@ -1,6 +1,13 @@
 {
   "surges": [
-
+"[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
+    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
+    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
+    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
+    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
+    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
+    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
+    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
     "[target] [procedural_spell]",
     "[partytempters], pulsing with [energy_type] appears",
     "a big red button appears (roll to see what happens, but give them an energy if they press)",
@@ -69,6 +76,19 @@
   
   "variables": {
 
+"surges2": [
+  "[surgespool]\n[surgespool]\n[surgespool]\n[surgespool]\n"
+
+],
+
+    "surgespool": [
+  "[emotion]",
+  "[weather]",
+  "[liquid]",
+  "[weapon]"
+],
+
+    
 "trigger": [
   "whenever the bearer lies",
   "whenever someone experiences [emotion]",
