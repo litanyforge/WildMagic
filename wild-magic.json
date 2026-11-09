@@ -83,6 +83,9 @@
 
     "surgespool": [
   "[emotion]",
+  "[gold]",
+  "[paper]".
+  "[verbs]",    
   "[weather]",
   "[liquid]",
   "[weapon]"
