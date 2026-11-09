@@ -24,7 +24,7 @@
 ],
 
     "surgespool": [
-
+  "[blessingurses]",
   "[emotion]",
   "[gold]",
   "[paper]",
@@ -34,6 +34,26 @@
   "[weapon]"
 ],
 
+"blessingurses": [
+  "[pantheon]'s curse!",
+  "[pantheon]'s blessing!"
+
+
+
+  
+    ],
+"pantheon": [
+  "Nasrond",
+  "Heaven",
+  "Stanley",
+  "Galondel",
+  "Dengar",
+  "Titan",
+  "Marsara",
+
+
+  "Tharizdun"
+    ],
 
     
 "trigger": [
