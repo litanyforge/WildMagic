@@ -7,8 +7,41 @@
     "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
     "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
     "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
-    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]",
-    "[target] [procedural_spell]",
+    "[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]","[surges2]"
+   
+  ],
+
+"loot": [
+    "[lootstuff]",
+  "[lootstuff]",
+  "[weirdshit]"
+  ],
+
+  
+  "variables": {
+
+
+
+
+    
+
+"surges2": [
+  "[surgespool]\n[surgespool]\n[surgespool]\n[surgespool]"
+
+],
+
+    "surgespool": [
+  "[BlessingCurse]",    
+  "[emotion]",
+  "[gold]",
+  "[paper]".
+  "[verbs]",    
+  "[weather]",
+  "[liquid]",
+  "[weapon]"
+],
+"deprecatedoldstuff": [
+"[target] [procedural_spell]",
     "[partytempters], pulsing with [energy_type] appears",
     "a big red button appears (roll to see what happens, but give them an energy if they press)",
     "[target] gains the aspect '[aspect]' until the end of the game session.",
@@ -67,30 +100,6 @@
     "Gravity reverses only for [target] [duration]!"
   ],
 
-"loot": [
-    "[lootstuff]",
-  "[lootstuff]",
-  "[weirdshit]"
-  ],
-
-  
-  "variables": {
-
-"surges2": [
-  "[surgespool]\n[surgespool]\n[surgespool]\n[surgespool]"
-
-],
-
-    "surgespool": [
-  "[emotion]",
-  "[gold]",
-  "[paper]".
-  "[verbs]",    
-  "[weather]",
-  "[liquid]",
-  "[weapon]"
-],
-
     
 "trigger": [
   "whenever the bearer lies",
@@ -105,6 +114,28 @@
   "whenever someone rolls a natural 1",
   "if dipped in [liquid]"
 ],
+
+"BlessingCurse": [
+  "[pantheon]'s curse!",
+  "[pantheon]'s blessing!"
+
+
+
+  
+    ],
+"pantheon": [
+  "Nasrond",
+  "Heaven",
+  "Stanley",
+  "Galondel",
+  "Dengar",
+  "Titan",
+  "Marsara",
+
+
+  "Tharizdun"
+    ],
+
     
 "lootstuff": [
   "[item]",
